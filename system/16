@@ -1,0 +1,9 @@
+for this task we could use cron:
+ apr-get install cron
+ and next we create file-table with all command that we need crontab -e
+ * * * * * * path/to/exec
+ 1. minutes
+ 2. hours
+ 3. days
+ 4. months
+ 5. day of week 

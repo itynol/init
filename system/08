@@ -1,0 +1,7 @@
+RSA key for connect is contained in public ssh_host_rsa_key.pub, but directory there this file is contained may be diferent
+
+in my deb version it's
+
+cat /etc/ssh/ssh_host_rsa_key.pub
+
+

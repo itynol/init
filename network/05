@@ -1,0 +1,1 @@
+nslookup smash16.org | grep Address | awk 'FNR == 2 {print $2}'
